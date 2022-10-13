@@ -1,3 +1,5 @@
+// these all the basic java programs come under beginner level
+
 public class PalindromeNumber {
     public static void main(String[] args) {
         int number = 1221;

@@ -1,3 +1,5 @@
+// these all the basic java programs come under beginner level
+
 import java.util.Scanner;  
 public class LcmExample4  
 {  
