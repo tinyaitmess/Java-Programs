@@ -1,4 +1,4 @@
-
+// these all the basic java programs come under beginner level
 
 // Main class
 public class GFG {
