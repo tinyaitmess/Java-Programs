@@ -15,23 +15,22 @@ public class Calculator {
                 System.out.print("Enter two numbers: ");
                 int num1 = in.nextInt();
                 int num2 = in.nextInt();
-
-                if (op == '+') {
-                    ans = num1 + num2;
-                }
-                if (op == '-') {
-                    ans = num1 - num2;
-                }
-                if (op == '*') {
-                    ans = num1 * num2;
-                }
-                if (op == '/') {
-                    if (num2 != 0) {
+                switch (op) {
+                    case '+':
+                        ans = num1 + num2;
+                        break;
+                    case '-':
+                        ans = num1 - num2;
+                        break;
+                    case '*':
+                        ans = num1 * num2;
+                        break;
+                    case '/':
                         ans = num1 / num2;
-                    }
-                }
-                if (op == '%') {
-                    ans = num1 % num2;
+                        break;
+                    case '%':
+                        ans = num1 / num2;
+                        break;
                 }
             } else if (op == 'x' || op == 'X') {
                 break;
@@ -40,5 +39,6 @@ public class Calculator {
             }
             System.out.println(ans);
         }
+        in.close();
     }
 }
