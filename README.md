@@ -42,7 +42,7 @@ flowchart LR
  ```
  
 ## To know how to contribute go through this page [Contributor.md](Contributor.md)
- still if you want help than create a issue and add your quiry
+ still if you want help than create a issue and add your query.
 
 ### Our Contributors:
 
