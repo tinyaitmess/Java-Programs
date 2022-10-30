@@ -10,31 +10,15 @@ public class Conditionals {
                 // do this
             }
         */
-
-        int salary = 25400;
-//        if (salary > 10000) {
-//            salary = salary + 2000;
-//        } else {
-//            salary = salary + 1000;
-//        }
-
-        // multiple if-else
-
-//        if (salary > 10000) {
-//            salary += 2000; // salary = salary + 2000
-//        } else if (salary > 20000) {
-//            salary += 3000;
-//        } else {
-//            salary += 1000;
-//        }
-//
-//        System.out.println(salary);
-
-        int a = 10;
-        int b = 40;
-
-        if (a != 35) {
-            System.out.println("Hello World");
-        }
+        Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your age: ");
+		int age = sc.nextInt();
+		if (age>=18) {
+			System.out.println("You can Drive!");		
+		}
+		else {
+			System.out.println("You can't Drive!");
+		}
+		sc.close();
     }
 }
